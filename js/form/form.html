@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <form id="myForm" onsubmit="return validateForm()">
+    <!-- TEXT -->
+    <div class="form-element-edit">
+      <label>Name</label>
+      <input type="text" class="form_input_field" name="name" placeholder="Enter Name" id="username" /><br />
+      <div class="error name"></div>
+    </div>
+
+    <!-- EMAIL -->
+    <div class="form-element-edit">
+      <label for="email">Email</label>
+      <input type="email" class="form_input_field" id="email" name="email" placeholder="Enter Email" /><br />
+    </div>
+
+    <!-- NUMBER -->
+    <div class="form-element-edit">
+      <label for="number">Enter Mobile</label>
+      <input type="text" class="form_input_field" name="number" placeholder="Enter Mobile" id="phone_number" /><br />
+      <div class="error number"></div>
+    </div>
+
+    <!-- PASSWORD -->
+    <div class="form-element-edit">
+      <label for="Password">Enter Password</label>
+      <input type="password" class="form_input_field" name="password" id="user_password"
+        placeholder="Enter Password" /><br />
+      <div class="error password"></div>
+    </div>
+
+    <!-- RADIO BUTTON -->
+    <div>
+      <legend>Select Gender</legend>
+      <input type="radio" name="gender" id="male" value="Male" />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      <label for="female">Female</label><br /><br />
+      <div class="error gender"></div>
+    </div>
+
+    <!-- SELECT -->
+    <div class="form-element-edit">
+      <label for="stream">Select Stream</label>
+      <select class="form-element" name="stream" id="select">
+        <option value>select a stream</option>
+        <option class="selected_item" id="cse" value="CSE">CSE</option>
+        <option class="selected_item" id="electronics" value="Electronics">Electronics</option>
+        <option class="selected_item" id="mechanical" value="Mechanical">Mechanical</option>
+        <option class="selected_item" id="civil" value="civil">Civil</option>
+      </select><br />
+      <div class="error stream"></div>
+    </div>
+
+    <!-- TEXT AREA -->
+    <div class="form-element-edit">
+      <textarea name="description" placeholder="Write About Yourself" cols="30" rows="10"
+        id="description"></textarea><br />
+      <div class="error description"></div>
+    </div>
+
+    <!-- BUTTON -->
+    <input type="submit" class="submit-btn" />
+  </form>
+
+  <h2>Json Object</h2>
+  <p id="json"></p>
+
+  <h2>Array</h2>
+  <p id="array" ></p>
+
+  <script src="form_new.js"></script>
+</body>
+
+</html>

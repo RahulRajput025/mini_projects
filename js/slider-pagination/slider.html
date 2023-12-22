@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="slider-1.css">
+    <title>Slider</title>
+</head>
+
+<body>
+
+    <section class="container">
+        <div class="main_frame">
+            <img src="./images/op-2.jpg" id="img_frame" alt>
+        </div>
+
+        <div class="sub_frames">
+            <div id="1"><img src="./images/ace.jpg" class="sub_frame" alt>1</div>
+            <div id="2"><img src="./images/ace-2.jpg" class="sub_frame" alt>2</div>
+            <div id="3"><img src="./images/op-2.jpg" class="sub_frame" alt>3</div>
+            <div id="4"><img src="./images/wallpaperflare.com_wallpaper.jpg" class="sub_frame" alt>4</div>
+        </div>
+    </section>
+
+    <script>
+        let frame = document.getElementById('img_frame');
+        let thumbnails = document.getElementsByClassName('sub_frame');
+        for (let i = 0; i < 4; i++) {
+            thumbnails[i].addEventListener('click', () => {
+                frame.setAttribute("src", thumbnails[i].src);
+            })
+        }
+    </script>
+
+</body>                                                       
+
+</html>

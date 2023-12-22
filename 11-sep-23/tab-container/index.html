@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tab Container</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="conteiner my-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">Tab Container</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-12">
+                <h2 class="main__heading mb-5">One Piece</h2>
+            </div>
+
+            <div class="bar black justify-content-around ">
+                <button class="buttons" onclick="character('luffy')">Monkey D Luffy</button>
+                <button class="buttons" onclick="character('sanji')">Vinsmoke Sanji</button>
+                <button class="buttons" onclick="character('zoro')">Roronoa Zoro</button>
+            </div>
+
+            <div id="luffy" class="desc_container my-5 op_character ">
+                <h2><b>king of the Pirates</b></h2>
+                <div class="row my-5">
+                    <div class="col-md-3"><img src="./images/luffy-2.jpg" height="200px" width="300px"
+                            class="rounded mb-4" alt=""></div>
+                    <div class="col-md-9">
+                        <p>Monkey D. Luffy, also known as "Straw Hat Luffy" and commonly as "Straw Hat", is the
+                            founder and
+                            captain of the increasingly infamous and powerful Straw Hat Pirates, as well as the most
+                            powerful of
+                            its top fighters. He desires to find the legendary treasure left behind by the late
+                            Gol D.
+                            Roger and thereby become the Pirate King, which would help facilitate an unknown dream
+                            of his
+                            that he has told only to Shanks, his brothers, and crew. He believes that being the
+                            Pirate
+                            King means having the most freedom in the world.
+
+                            Born in Foosha Village, Luffy is the son of Monkey D. Dragon, the leader of the
+                            Revolutionary
+                            Army, and the grandson of the Marine hero Monkey D. Garp, where their family
+                            carries the
+                            initial of D. At age 7, Luffy accidentally ate the Gomu Gomu no Mi, which turned his body
+                            into
+                            rubber. Shanks also gave Luffy the very straw hat that has become Luffy's signature
+                            accessory,
+                            having gifted it to the boy as part of a promise for them to meet again someday after he
+                            became a
+                            great pirate. Growing up on Dawn Island under the care of Curly Dadan,[36] Luffy
+                            befriended and
+                            became sworn brothers of the late "Fire Fist" Portgas D. Ace[37] and Revolutionary
+                            Chief-of-Staff
+                            Sabo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="sanji" class="desc_container my-5  op_character" style="display:none">
+                <h2><b>World's Best Cook and Prince of Celestial Dragons</b></h2>
+                <div class="row my-5">
+                    <div class="col-md-3"><img src="./images/sanji.jpg" height="200px" width="300px"
+                            class="rounded mb-4" alt=""></div>
+                    <div class="col-md-9 my-auto">
+                        <p>"Black Leg" Sanji, born as Vinsmoke Sanji, is the cook of the Straw Hat
+                            Pirates
+                            and
+                            one of the Senior Officers of the Straw Hat Grand Fleet. He is the fifth member of the
+                            crew
+                            and
+                            the fourth to join, doing so at the end of the Baratie Arc.
+
+                            Born as the third son and fourth child of the Vinsmoke Family (thus, making him a former
+                            prince
+                            of the Germa Kingdom), he disowned his family twice, once in his youth and again after
+                            reuniting
+                            with them as an adult. After fleeing the Vinsmokes as a child, he eventually entered the
+                            care of
+                            Zeff as the sous chef of the Baratie, where he would remain until he met Monkey D. Luffy,
+                            who
+                            convinced him to join his crew.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="zoro" class="desc_container my-5  op_character" style="display:none">
+                <h2><b>King of Hell</b></h2>
+
+                <div class="row my-5">
+                    <div class="col-md-3"><img src="./images/zoro.jpg" class="rounded mb-4" height="200px" width="300px"
+                            alt=""></div>
+                    <div class="col-md-9">
+                        <p>Roronoa Zoro, also known as "Pirate Hunter" Zoro, is a main combatant of the Straw Hat
+                            Pirates, one of their two swordsmen, one of the Senior Officers of the Straw Hat Grand
+                            Fleet,
+                            and
+                            is publicly recognized as the right-hand man of his crew's captain Monkey D. Luffy.
+                            Formerly
+                            a bounty hunter, he is the second member of Luffy's crew and the first to join it, doing
+                            so
+                            in
+                            the Romance Dawn Arc.
+
+                            Born in the East Blue, Zoro is the son of Tera and Roronoa Arashi, the grandson of
+                            Shimotsuki
+                            Furiko
+                            and Roronoa Pinzoro, and the grandnephew of Shimotsuki Ushimaru, making him a matrilineal
+                            descendant
+                            of both the Shimotsuki Family of Wano Country and the legendary samurai, Shimotsuki
+                            Ryuma. As
+                            a master of Three Sword Style, a swordsmanship style which he created during his childhood
+                            training
+                            in Shimotsuki Village, Zoro is one of the three most powerful combatants of the Straw Hats,
+                            alongside Luffy and Sanji, who are referred to as the "Monster Trio". His dream is
+                            to
+                            become
+                            the greatest swordsman in the world, in order to honor a promise he made to his deceased
+                            childhood
+                            friend Kuina.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js" async defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

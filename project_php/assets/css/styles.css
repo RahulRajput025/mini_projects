@@ -1,0 +1,93 @@
+/* FORMS */
+.data_forms {
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    padding: 15px;
+    /* background-color: black */
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border-radius: 5px;
+    max-width: 90%;
+}
+
+.form-group label {
+    font-size: 22px;
+    color: white;
+}
+
+.form-group input {
+    height: 37px;
+    /* max-width: 90%; */
+}
+
+.form-group select{
+    height: 37px;
+    /* max-width: 90%; */
+}
+
+.form-group select{
+    height: 37px;
+    /* max-width: 90%; */
+}
+
+.btn-group label{
+    height: 38px;
+    margin-right: 2px;
+}
+
+.btn {
+    width: 100px;
+    padding: 4px;
+    font-size: 22px;
+    margin-right: 3px;
+    color: black;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.error {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: -19px;
+    margin-bottom: 8px;
+    color: rgb(216, 9, 9);
+}
+
+/* FORM ENDS*/
+
+.index_paragraph {
+    line-height: 30px;
+}
+
+.form_labels {
+    font: 25px;
+}
+
+.profile_image-update {
+    height: 250px;
+    width: 400px;
+    object-fit: cover;
+}
+/* FORMS ENDS */
+
+
+
+
+/* LOGIN FORM */
+.remember_me{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+}
+
+.remember_me input{
+    height: 29px;
+}
+.remember_me label{
+    font-size: 19px;
+    
+}

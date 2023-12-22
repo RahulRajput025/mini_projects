@@ -1,0 +1,27 @@
+.main__heading{
+    font-size: 48px;
+    color: white;
+}
+.buttons{
+    font-size: 25px;
+    /* padding: 14px; */
+    border-radius: 5px;
+    background-color: rgb(28, 53, 190);
+    color: white;
+    width:30%;
+}
+
+.container{
+    margin-top: 70px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 60px;
+    width: 50%;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.desc_container{
+    padding: 20px;
+    background-color: rgb(212, 225, 230);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+

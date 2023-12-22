@@ -1,0 +1,22 @@
+.container{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+
+.main_frame img{
+    width: 100%;
+    height: 700px;
+}
+
+.sub_frames{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sub_frames img{
+    height: 60%;
+    width: 80%;
+}

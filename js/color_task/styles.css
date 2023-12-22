@@ -1,0 +1,21 @@
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.purple{
+    color: purple;
+}
+.green{
+    color: green;
+}
+
+label{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.blueValue{
+    color: blue;
+}

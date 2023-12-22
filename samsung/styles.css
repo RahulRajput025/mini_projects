@@ -1,0 +1,457 @@
+.container {
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+body {
+    /* font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER STARTS */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.logo_image {
+    height: 43px;
+    margin-top: -8px;
+}
+
+.list_1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.list_1 a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: bolder;
+    height: fit-content;
+    padding: 7px;
+}
+
+.list_1 a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.list_2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.list_2 a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    height: fit-content;
+    padding: 7px;
+}
+
+.list_2 a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.list_3 {
+    margin-left: auto;
+}
+
+.list_3 i {
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+/* HEADER ENDS */
+
+
+
+/* CAROUSEL-1 STARTS */
+.carousel-1-img {
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    border: 1px solid white;
+}
+
+/* CAROUSEL-1 ENDS */
+
+
+/* CAROUSEL-2 STARTS */
+.carousel-2-heading {
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.carousel-2-navbar {
+    width: fit-content;
+    margin: auto;
+}
+
+.carousel-2-navbar li {
+    float: left;
+    display: block;
+    margin-right: 45px;
+    font-size: 20px;
+}
+
+.carousel-2-navbar li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.carousel-2-navbar li a:hover {
+    border-bottom: 3px solid black;
+}
+
+.carousel-2-card-image {
+    margin-top: 20px;
+    width: 49%;
+}
+
+/* CAROUSEL-2 ENDS*/
+
+
+
+/* CAROUSEL-3 STARTS */
+.carousel-3-heading {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.carousel-3-navbar {
+    width: fit-content;
+    margin: auto;
+}
+
+.carousel-3-navbar li {
+    float: left;
+    display: block;
+    margin-right: 45px;
+    font-size: 20px;
+}
+
+.carousel-3-navbar li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.carousel-3-image-heading {
+    padding: 570px 200px 100px 200px;
+    text-align: center;
+    justify-content: end;
+    background-image: url(./assets/galaxyZfold.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    line-height: 17px;
+}
+
+.carousel-3-image-heading h1 {
+    font-size: 50px;
+}
+
+.carousel-3-image-heading p {
+    font-size: 22px;
+}
+
+.carousel-3-image-heading a {
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    margin-right: 8px;
+}
+
+.carousel-3-image-heading button {
+    color: white;
+    background-color: black;
+    border-radius: 19px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.carousel-3-navbar li a:hover {
+    border-bottom: 3px solid black;
+}
+
+/* CAROUSEL-3 ENDS */
+
+
+
+
+/* CAROUSEL-4 STARTS */
+.carousel-4-image-heading {
+    padding: 570px 200px 100px 200px;
+    text-align: center;
+    justify-content: end;
+    background-image: url(./assets/qled.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    line-height: 17px;
+}
+
+.carousel-4-image-heading h1 {
+    font-size: 50px;
+}
+
+.carousel-4-image-heading p {
+    font-size: 22px;
+}
+
+.carousel-4-image-heading a {
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    margin-right: 8px;
+}
+
+.carousel-4-image-heading button {
+    color: white;
+    background-color: black;
+    border-radius: 19px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+/* CAROUSEL-4 ENDS */
+
+
+
+
+
+/* CAROUSEL-5 STARTS */
+.carousel-5-image-heading {
+    padding: 570px 200px 100px 200px;
+    text-align: center;
+    justify-content: end;
+    background-image: url(./assets/8.0kg.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    line-height: 17px;
+}
+
+.carousel-5-image-heading h1 {
+    font-size: 50px;
+}
+
+.carousel-5-image-heading p {
+    font-size: 22px;
+}
+
+.carousel-5-image-heading a {
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    margin-right: 8px;
+}
+
+.carousel-5-image-heading button {
+    color: white;
+    background-color: black;
+    border-radius: 19px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+/* CAROUSEL-5 ENDS */
+
+
+
+/* PART - 6 */
+.part-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.part-6-image {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.part-6-list ul li {
+    list-style-type: none;
+    border-bottom: 4px solid black;
+}
+
+.part-6-list ul {
+    line-height: 80px;
+}
+
+.part-6-list ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 31px;
+}
+
+.part-6-list ul li:hover {
+    transform: translateY(-12px);
+    border-bottom: 1px solid grey;
+    /* margin-top: 25px; */
+    height: 100px;
+    transition: 1s;
+    transition-duration: 1s;
+}
+
+/* .part-6-list ul li a:hover{
+    text-transform: none;
+} */
+/* PART - 6 ENDS*/
+
+
+
+/* PART - 7 STARTS */
+.part-7-container {
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.part-7-container h1 {
+    font-size: 45px;
+}
+
+.part-7-container input {
+    width: 60%;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.part-7-list {
+    width: 100%;
+}
+
+.part-7-list ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.part-7-container ul li {
+    list-style-type: none;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 3px;
+    margin-right: 4px;
+    margin-top: 10px;
+}
+
+.part-7-container ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* PART - 7 ENDS */
+
+
+
+
+/* PART - 8 STARTS */
+.part-8-container ul {
+    margin-top: 70px;
+    line-height: 30px;
+}
+
+.part-8-container ul li {
+    list-style-type: none;
+    font-size: 12px;
+}
+
+/* PART - 8 ENDS */
+
+
+
+
+/* PART - 9 (FOOTER) */
+.footer-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-lists {
+    width: 20%;
+    align-content: end;
+}
+
+.footer-lists ul li {
+    list-style-type: none;
+    font-size: 14px;
+    justify-content: left;
+    line-height: 25px;
+}
+
+.footer-lists ul h4 {
+    font-weight: bolder;
+}
+
+.footer-lists {
+    padding: 30px;
+    border: 1px solid rgb(158, 156, 156);
+}
+
+.footer-lists ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-copyright-container {
+    font-size: 12px;
+    border-bottom: 1px solid rgb(158, 156, 156);
+}
+
+.footer-last-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.last-container-list ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.last-container-list ul li {
+    list-style-type: none;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+/* .list-1{
+    font-weight: bolder;
+    border-right: 1px solid rgb(158, 156, 156);
+    padding-right: 5px;
+} */
+
+.last-container-list ul li i {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* PART - 9 (FOOTER) */

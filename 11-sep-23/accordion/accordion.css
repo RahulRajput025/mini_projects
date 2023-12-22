@@ -1,0 +1,21 @@
+.container{
+    margin-top: 150px;
+}
+.content{
+    display: none;
+}
+
+.accordion{
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: aquamarine;
+}
+.accordion:hover{
+    cursor: pointer;
+}
+
+.content{
+    background-color: rgb(190, 248, 234);
+    padding: 50px;
+}
